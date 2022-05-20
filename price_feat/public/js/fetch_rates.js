@@ -12,8 +12,7 @@ frappe.ui.form.on(cur_frm.doc.doctype, {
                                 method: "price_feat.api.fetch_latest_customer_price",
                                 args: {
                                     'doctype': frm.doc.doctype,
-                                    'item_code':d.item_code,
-                                    'docname' : frm.doc.name
+                                    'item_code':d.item_code
                                 }
                             }).then((r) => {
                                 if(r.message && r.message.length>0) {

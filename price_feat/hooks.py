@@ -119,9 +119,9 @@ doctype_js = {"Quotation" : "public/js/fetch_rates.js",
 # Overriding Methods
 # ------------------------------
 #
-override_whitelisted_methods = {
-	"erpnext.stock.get_item_details.get_item_details": "price_feat.api.get_latest_price_for_get_item_details"
-}
+# override_whitelisted_methods = {
+# 	"erpnext.stock.get_item_details.get_item_details": "price_feat.api.get_latest_price_for_get_item_details"
+# }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
